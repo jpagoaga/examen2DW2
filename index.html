@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Arquitect</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-blue">
+    
+    <div id="app">	
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      
+      	<section class="panel panel-left panel-cover">
+			<h3 class="block-title">Menú Navegación</h3>
+			<div class="block">
+				<article class="list">
+					<ul>
+						<li>
+							<a href="/diamond/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<span class="material-icons">home</span>
+								</div>
+								<div class="item-inner">
+								  Propiedades
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/diamond/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<span class="material-icons">new_releases</span>
+								</div>
+								<div class="item-inner">
+									Novedades
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/diamond/" class="item-link item-content panel-close">
+								<div class="item-media">
+									<span class="material-icons">perm_contact_calendar</span>
+								</div>
+								<div class="item-inner">
+									Categorias
+								</div>
+							</a>
+						</li>
+					</ul>
+				</article>
+				
+			</div>
+		</section>
+      
+
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+                <div class="left">
+                	<a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                </div>
+                <div class="title">Elige Tu Casa</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+              <!--<h2 class="block-title">Tìtulo de Contenido</h2>
+              <div class="block block-strong">
+                  <p>Texto de contenido</p>
+              </div>-->
+			  
+			   <article class="menu bg-diamond">
+                  <a href="/diamond/">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Diamond</h2>
+                          <p>Propiedades de categoria Diamond</p>
+                      </div>
+                 </a>
+              </article>
+			  
+			    <article class="menu bg-premium">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Premium</h2>
+                          <p>Propiedades de Categoria premium</p>
+                      </div>        
+              </article>
+			  
+              <article class="menu bg-tradicional">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Tradicional</h2>
+                          <p>Casas con su toque hogareño</p>
+                      </div> 
+              </article>
+              <article class="menu bg-moderno">
+                      <div class="overlay"></div>
+                      <div class="texto">
+                          <h2>Moderno</h2>
+                          <p>Estilo minimalista y moderno</p>
+                      </div>        
+              </article>
+
+              
+          </div><!-- /page-content -->
+            
+        </section>
+          
+          
+      </div>
+    </div>
+    
+    
+    
+    <article class="popup popup-confirm">
+		
+		<div class="view">
+			<div class="page">
+			  <div class="page-content">
+					
+					<div class="block">
+					
+						<div class="icon-done">
+							<i class="material-icons">done</i>
+						</div>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
+						
+						<div class="row">
+							<a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+							<a href="/diamond/" class="link button btn-gris popup-close">Continue Shopping</a>
+						</div>
+						
+				  	</div>
+					
+			  </div>
+			</div>
+	
+	</article>
+    
+    
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+    
+</body>
+</html>

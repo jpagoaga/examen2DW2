@@ -1,0 +1,239 @@
+p{
+    margin: 5px 0;
+}
+.menu{
+    position: relative;
+    text-align: center;
+    color: #a2a2a2;
+    padding: 15% 0;
+}
+.menu h2{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.bg-tradicional{
+    background-image: url("../img/neo-classic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 25% 0;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background-color: rgba(0,0,0,0.50);
+}
+.texto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: grid;
+    align-content: center;
+}
+.bg-moderno{
+    background-image: url("../img/casamoderna.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 25% 0;
+}
+.bg-premium{
+    background-image: url("../img/gallery-6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 25% 0;
+}
+.bg-diamond{
+    background-image: url("../img/gallery-5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding: 25% 0;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.list-menu img{
+    width: 100px;
+}
+
+.list-menu{
+    margin-top: 0 !important;
+    color: #C7C7C7;
+    font-size: 14px !important;
+}
+.list-menu .item-header{
+    color: #827B76;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    margin-bottom: 2px;
+}
+.list-menu .item-footer{
+    color: #1AA575 !important;
+    font-weight: 400 !important;
+    margin: 2px 0;
+}
+
+
+.hero-diamond{
+    background-image: url("../img/gallery-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20% 0;
+    text-align: center;
+    position: relative;
+}
+.hero-diamond h2{
+    font-size: 34px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+.hero-diamond p{
+    font-size: 14px !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+}
+.overlay-diamond{
+    background-color: rgba(203,176,132,0.75);
+}
+
+.card-diamond{
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+.card-header h3{
+    color: #026873 !important;
+    font-size: 16px !important;
+    margin: 0;
+}
+.card-content{
+    text-align: center;
+}
+.card-content img{
+    width: 150px;
+    margin: 0 auto;
+}
+.card-footer{
+    color: #6CCED9 !important;
+    font-weight: 400 !important;
+	font-size: 16px !important;
+}
+
+.img-center{
+	margin: 20px auto;
+	display: block
+}
+.titulo{
+	font-size: 16px;
+	color: #130C40 !important;
+	font-weight: 600;
+}
+.precio{
+	font-size: 16px;
+	color: #026873 !important;
+	text-align: right;
+	font-weight: 600;
+}
+.contenido{
+	font-size: 14px;
+	color: #5C5C5E;
+	margin: 30px 0;
+}
+.button{
+	margin-bottom: 5px !important;
+	text-transform: inherit !important;
+}
+.btn-verde{
+	background-color: #6CCED9 !important;
+	color: #fff !important;
+	display: block !important;
+	text-align: center;
+	width: 100%;
+	border-radius: 10px !important;
+}
+.btn-gris{
+	background-color: #fff !important;
+	color: #5C5C5E !important;
+	display: block !important;
+	text-align: center;
+	width: 100%;
+	border-radius: 10px !important;
+	border:1px solid #ccc !important;
+}
+
+.navbar,
+.toolbar{
+	background-color: #6CCED9 !important;
+}
+.navbar a,
+.toolbar a{
+	color: #fff !important;
+}
+a{
+	color: #6CCED9 !important;
+}
+
+.swiper-wrapper img{
+	width: 400px;
+	margin: 20px auto;
+	display: block;
+}
+
+
+.popup-confirm{
+	color: #ccc;
+	text-align: center;
+}
+.icon-done{
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 100%;
+	background-color: #c9f4c9;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+.icon-done i{
+	font-size: 60px;
+	padding-top: 30%;
+}
+
+.titulo-info{
+    background-color: #026873 !important;
+    padding: 20% 0;
+    text-align: center;
+    position: relative;
+}
+.titulo-info h2{
+	margin: 0px;
+    font-size: 34px !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.titulo-info h3{
+	margin: 0px;
+	text-transform: uppercase;
+    font-size: 18px !important;
+    color: #DEDEDE !important;
+    font-weight: 300 !important;
+}
+
+.titulo-info p{
+    font-size: 14px !important;
+    color: #6CCED9 !important;
+    font-weight: 300 !important;
+}
+
+.page-content{
+	background-color: #E8E8E8 !important;
+}
